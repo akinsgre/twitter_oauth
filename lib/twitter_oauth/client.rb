@@ -45,7 +45,6 @@ module TwitterOAuth
     end
 
     def request_token(options={})
-    puts "########## Doing reqeust_token"
       consumer.get_request_token(options)
     end
 
